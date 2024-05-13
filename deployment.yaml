@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: hello
-          image: atulpandey108/hello:latest
+          image: atulpandey108/python-jenkins:demo1
           imagePullPolicy: Always
           ports:
           - containerPort: 5000
